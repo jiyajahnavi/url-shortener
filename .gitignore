@@ -6,8 +6,15 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+
+# Virtual environment
 .venv/
 venv/
+
+# Testing
+.pytest_cache/
+.coverage
 
 # IDE / OS
 .vscode/
@@ -17,3 +24,8 @@ venv/
 # Logs / backups
 *.log
 *.sql.bak
+
+# Node
+node_modules/
+
+Instructions.md
